@@ -8,15 +8,15 @@ const Navbar = () => {
     <nav className="nav navbar">
       <div className="container">
         <button className="join-btn btn">
-          <Link className="link" to={"/join"}>Join</Link>
+          <Link className="link join-link" to={"/join"}>Join</Link>
           </button>
           <div className="logo">
-            <Link className="link" to={"/"}>
-              <h1>Logo</h1>
+            <Link className="link navbar" to={"/"}>
+              <img src="../img/logo192.png" alt="logo" />
             </Link>
           </div>
         <button className="contact-btn btn"> 
-        <Link className="link" to={"/contact"}>Contact</Link>
+        <Link className="link contact-link" to={"/contact"}>Contact</Link>
         </button>
       </div>
     </nav>
