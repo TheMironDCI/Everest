@@ -1,0 +1,28 @@
+label {
+    color:white;
+}
+.form-container {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.join-text {
+    z-index: 5;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f84752;
+    background-image: linear-gradient(#f84752, #de4674);
+    border-radius: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 16px;
+    font-family: Leaguespartan, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    box-shadow: 0 2px 50px rgba(237, 71, 97, .36);
+    width: 100%;
+}

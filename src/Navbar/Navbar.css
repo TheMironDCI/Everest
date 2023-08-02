@@ -5,15 +5,47 @@
 }
 .container {
     display: flex;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .contact-btn {
-    background-color: #22bac2af;
-    justify-content: flex-end !important;
+    z-index: 5;
+    width: 100% !important;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f84752;
+    background-image: linear-gradient(#f84752, #de4674);
+    border-radius: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 16px;
+    font-family: Leaguespartan, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    box-shadow: 0 2px 50px rgba(237, 71, 97, .36);
 
 }
 .join-btn {
-    background-color: #094043af;
+    z-index: 5;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f84752;
+    background-image: linear-gradient(#f84752, #de4674);
+    border-radius: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 16px;
+    font-family: Leaguespartan, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    box-shadow: 0 2px 50px rgba(237, 71, 97, .36);
 }
 .btn {
     border: 3px solid #fff;
@@ -31,10 +63,31 @@
     font-size: 20px;
     font-weight: 600;
     transition-duration: .2s;
+    color: #fff;
 }
 .btn:hover {
     cursor: pointer;
 }
-.btn:hover .link {
-    color: blue;
+.btn:hover {
+    color: #282C34;
+}
+.btn:active {
+    color: #282C34 !important;
+}
+@media (max-width: 767px) { 
+    .nav-box {
+        overflow: hidden;
+        padding: 5px 0;
+        width: 50%;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+
 }

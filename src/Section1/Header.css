@@ -3,14 +3,50 @@
     color: white;
 }
 .video {
-    width: 50%;
+    width: 60%;
     height: 400px;
     margin: 0 auto;
     border: 2px solid white;
+}
+.header-join-btn {
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+i {
+    margin: 0 7px;
+}
+.logo {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 30px;
+}
+.logo-img {
+    background-image:url(../img/logo192.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+.join-cont {
+    margin: 0 auto;
 }
 @media (max-width: 767px) { 
     .video {
         width: 90%;
         height: 200px !important;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+    .video {
+        width: 90% !important;
+        height: 350px !important;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    .video {
+        width: 70% !important;
+        height: 350px !important;
     }
 }

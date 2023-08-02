@@ -7,17 +7,12 @@ const Navbar = () => {
   return (
     <nav className="nav navbar">
       <div className="container">
-        <button className="join-btn btn">
-          <Link className="link join-link" to={"/join"}>Join</Link>
-          </button>
-          <div className="logo">
-            <Link className="link navbar" to={"/"}>
-              <img src="../img/logo192.png" alt="logo" />
-            </Link>
-          </div>
-        <button className="contact-btn btn"> 
-        <Link className="link contact-link" to={"/contact"}>Contact</Link>
-        </button>
+        <div className="nav-box">
+        <Link className="link join-link nav-box nav-link" to={"/join"}><button className="join-btn btn nav-box">Join</button></Link>
+        </div>
+        <div className="nav-box">
+        <Link className="link contact-link nav-box nav-link" to={"/contact"}><button className="contact-btn btn nav-box">Contact</button></Link>
+        </div>
       </div>
     </nav>
   );
