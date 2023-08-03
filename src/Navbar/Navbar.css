@@ -74,6 +74,9 @@
 .btn:active {
     color: #282C34 !important;
 }
+.nav-box {
+    display: flex;
+}
 @media (max-width: 767px) { 
     .nav-box {
         overflow: hidden;
@@ -82,7 +85,21 @@
         font-size: 14px;
         text-align: center;
     }
-    
+    .join-link {
+        width: 80%;
+    }
+    .contact-link {
+        width: 80%;
+    }
+    .join-btn {
+        width: 100%;
+    }
+    .contact-btn {
+        width: 100%;
+    }
+    .contact-btn-box {
+        justify-content: end;
+    }
 }
 @media (min-width: 767px) and (max-width: 992px) { 
 

@@ -71,3 +71,19 @@
 .s-media-box {
     justify-content: start;
 }
+@media (max-width: 767px) { 
+    .contact-box {
+        width: 100%;
+        justify-content: center;
+    }
+    .contact-links {
+        font-size: 22px;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+
+}
