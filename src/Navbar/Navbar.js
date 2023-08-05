@@ -8,16 +8,16 @@ const Navbar = () => {
     <nav className="nav navbar">
       <div className="container">
         <div className="nav-box join-btn-box">
-        <Link className="link join-link nav-box nav-link" to={"/"}><button className="join-btn btn nav-box">Home</button></Link>
+        <Link className="link join-link nav-box nav-link" to={"/"}>Home</Link>
         </div>
         <div className="nav-box contact-btn-box">
-        <Link className="link contact-link nav-box nav-link" to={"/contact"}><button className="contact-btn btn nav-box">Contact</button></Link>
+        <Link className="link contact-link nav-box nav-link" to={"/contact"}>Contact</Link>
         </div>
         <div className="nav-box join-btn-box">
-        <Link className="link join-link nav-box nav-link" to={"/courses"}><button className="join-btn btn nav-box">Courses</button></Link>
+        <Link className="link join-link nav-box nav-link" to={"/courses"}>Courses</Link>
         </div>
         <div className="nav-box contact-btn-box">
-        <Link className="link join-link nav-box nav-link" to={"/join"}><button className="join-btn btn nav-box">Join</button></Link>
+        <Link className="link join-link nav-box nav-link" to={"/join"}>Join</Link>
         </div>
       </div>
     </nav>

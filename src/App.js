@@ -9,14 +9,14 @@ import English from './Courses/English';
 import Russian from './Courses/Russian';
 import Frontend from './Courses/Frontend';
 import Dispeching from './Courses/Dispeching';
-import Courses from './Section1/Courses';
+import CoursesPage from './Section1/CoursesPage';
 const App = () => {
   return (
     <Router>
       <Navbar />
       <Routes>
         <Route path='/' element={<Everest/>}/>
-        <Route path='/courses' element={<Courses/>}/>
+        <Route path='/courses' element={<CoursesPage/>}/>
         <Route path="/join" element={<Join />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/english" element={<English />} />

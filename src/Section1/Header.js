@@ -6,18 +6,20 @@ const Header = () => {
    <>
    <div className='container header d-block text-center'>
       <div className="logo"> 
-            <Link className="link logo-img navbar nav-box nav-link" to={"/"}></Link>
+            <Link className="link logo-img navbar nav-box" to={"/"}></Link>
           </div>
       <h1 className='header-text'>Build your future with us</h1>
       <div className='container'>
-        <div className='video'></div>
+        <div className='video'>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/76XOvyFsI2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
       </div>
       <div className='container join-cont'>
-        <button className="join-btn header-join-btn btn">
+        <Link className="link join-link" to={"/join"}><button className="nav-btn header-join-btn btn">
         <i className="fa-solid fa-arrow-right fa-beat"></i>
-          <Link className="link join-link" to={"/join"}>Join</Link>
+          Join
         <i className="fa-sharp fa-solid fa-arrow-left fa-beat"></i>
-          </button>
+          </button></Link>
       </div>
     </div>
   </>

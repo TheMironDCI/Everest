@@ -1,8 +1,9 @@
 import React from 'react'
-
+import "./Dispeching.css"
 function Russian() {
   return (
-    <div>Russian</div>
+    <div className='container'>    <h1 className='text'>Russian</h1>
+</div>
   )
 }
 

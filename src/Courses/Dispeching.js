@@ -1,8 +1,10 @@
 import React from 'react'
+import "./Dispeching.css"
 
 function Dispeching() {
   return (
-    <div>Dispeching</div>
+    <div className='container'><h1 className='text'>Dispeching</h1></div>
+    
   )
 }
 
