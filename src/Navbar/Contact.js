@@ -49,7 +49,7 @@ const Contact = () => {
             </p>
             <p className="s-medias">
               <Link className="contact-links" to={"s.com"}>
-              <i class="fa-brands fa-facebook contact-text-icon"></i>
+              <i className="fa-brands fa-facebook contact-text-icon"></i>
                 Facebook
               </Link>
             </p>

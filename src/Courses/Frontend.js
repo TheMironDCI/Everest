@@ -3,7 +3,9 @@ import "./Dispeching.css"
 
 function Frontend() {
   return (
-    <div className='container'> <h1 className='text'>Frontend</h1></div>
+    <div className='container'>
+     <h1 className='contact-text'>Frontend</h1>
+    </div>
    
   )
 }

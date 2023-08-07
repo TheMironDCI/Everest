@@ -4,7 +4,7 @@ import "./Dispeching.css"
 function English() {
   return (
     <div className='container'>
-      <h1 className='text'>English</h1>
+      <h1 className='contact-text'>English</h1>
 </div>
   )
 }

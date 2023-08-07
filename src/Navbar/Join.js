@@ -3,7 +3,7 @@ import "./Join.css";
 const Join = () => {
   return (
     <div className="join-container container form-container">
-      <h1 className="join-text">Join</h1>
+      <h1 className="join-text contact-text">Join</h1>
       <form>
         <div className="form-group">
           <label for="exampleFormControlInput1">Email address</label>
@@ -26,6 +26,9 @@ const Join = () => {
         <div className="form-group">
           <label for="exampleFormControlTextarea1">Telephone Number</label>
           <input type="tel" className="form-control" value={console.log()}/>
+        </div>
+        <div className="form-group">
+          <button className="btn join-submit-btn">Submit</button>
         </div>
       </form>
     </div>

@@ -11,11 +11,18 @@ const Header = () => {
       <h1 className='header-text'>Build your future with us</h1>
       <div className='container'>
         <div className='video'>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/76XOvyFsI2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        <iframe
+        width="100%"
+        height="315"
+        src="https://www.youtube.com/embed/76XOvyFsI2M"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>        </div>
       </div>
       <div className='container join-cont'>
-        <Link className="link join-link" to={"/join"}><button className="nav-btn header-join-btn btn">
+        <Link className="link join-link" to={"/join"}><button className="header-join-btn btn">
         <i className="fa-solid fa-arrow-right fa-beat"></i>
           Join
         <i className="fa-sharp fa-solid fa-arrow-left fa-beat"></i>
