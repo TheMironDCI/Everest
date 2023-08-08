@@ -6,7 +6,7 @@ const Join = () => {
       <h1 className="join-text contact-text">Join</h1>
       <form>
         <div className="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label htmlFor="exampleFormControlInput1">Email address</label>
           <input
             type="email"
             className="form-control"
@@ -15,7 +15,7 @@ const Join = () => {
           />
         </div>
         <div className="form-group">
-          <label for="exampleFormControlSelect1">Courses</label>
+          <label htmlFor="exampleFormControlSelect1">Courses</label>
           <select className="form-control" id="exampleFormControlSelect1">
             <option>English</option>
             <option>Russian</option>
@@ -24,7 +24,7 @@ const Join = () => {
           </select>
         </div>
         <div className="form-group">
-          <label for="exampleFormControlTextarea1">Telephone Number</label>
+          <label htmlFor="exampleFormControlTextarea1">Telephone Number</label>
           <input type="tel" className="form-control" value={console.log()}/>
         </div>
         <div className="form-group">

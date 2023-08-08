@@ -10,6 +10,7 @@ import Russian from './Courses/Russian';
 import Frontend from './Courses/Frontend';
 import Dispeching from './Courses/Dispeching';
 import CoursesPage from './Section1/CoursesPage';
+import FoundationIT from './Courses/FoundationIT';
 const App = () => {
   return (
     <Router>
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/russian" element={<Russian />} />
         <Route path="/frontend" element={<Frontend />} />
         <Route path="/dispeching" element={<Dispeching />} />
+        <Route path="/foundationIT" element={<FoundationIT />} />
       </Routes>
     </Router>
   );
