@@ -26,13 +26,13 @@ const Contact = () => {
             <p className="emails">
               <a href="mailto:everestuniversity@gmail.com" className="contact-links">
                 <i className="fa-solid fa-envelope contact-text-icon"></i>
-                everestuniversity@gmail.com
+                gmail.com
               </a>
             </p>
             <p className="emails">
               <a href="mailto:" className="contact-links">
               <i className="fa-solid fa-envelope contact-text-icon"></i>
-                info@everestuniversity
+                info@
               </a>
             </p>
           </div>

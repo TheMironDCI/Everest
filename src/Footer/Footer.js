@@ -24,8 +24,8 @@ function Footer() {
             <div className='footer-text'>
                 <a className='footer-link' href='tel:+998957799960' >+998 (95) 779 99 60</a>
                 <a className='footer-link' href='tel:+998958779960' >+998 (95) 877 99 60</a>
-                <a className='footer-link' href='mailto:everestuniversity@gmail.com' >everestuniversity@gmail.com</a>
-                <a className='footer-link' href='mailto:info@everestuniversity' >info@everestuniversity</a>
+                <a className='footer-link' href='mailto:everestuniversity@gmail.com' >gmail.com</a>
+                <a className='footer-link' href='mailto:info@everestuniversity' >info@</a>
             </div>
         </div>
         <div className='footer-box' >

@@ -33,7 +33,16 @@
 .nav-box {
     display: flex;
 }
+.nav-link-in {
+    margin: 0 auto;
+}
 @media (max-width: 767px) { 
+    .nav {
+        padding: 0;
+    }
+    .nav-container {
+        width: 100% !important;
+    }
     .nav-box {
         overflow: hidden;
         padding: 5px;
@@ -42,10 +51,13 @@
     }
     .nav-link {
         width: 100%;
-        font-size: 17px;
+        font-size: 22px;
         text-align: center;
     }
-
+    .join-link {
+        width: 100% !important;
+        text-align: center !important;
+    }
 }
 @media (min-width: 767px) and (max-width: 992px) { 
 

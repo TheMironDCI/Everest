@@ -78,6 +78,7 @@
 @media (max-width: 767px) { 
     .contact-box {
         width: 100% !important;
+        margin-left: 5px;
     }
     .contact-links {
         font-size: 22px;
@@ -85,11 +86,11 @@
     .s-media-inbox {
         flex-flow: column wrap;
     }
-    .contact-texts {
-        text-align: center;
-    } 
     .contact-links {
         text-align: center !important;
+    }
+    .contact-texts {
+        width: 100%;
     }
 }
 @media (min-width: 767px) and (max-width: 992px) { 
