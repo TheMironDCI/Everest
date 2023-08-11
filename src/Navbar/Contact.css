@@ -77,17 +77,27 @@
 }
 @media (max-width: 767px) { 
     .contact-box {
-        width: 100%;
-        justify-content: center;
+        width: 100% !important;
     }
     .contact-links {
         font-size: 22px;
     }
+    .s-media-inbox {
+        flex-flow: column wrap;
+    }
+    .contact-texts {
+        text-align: center;
+    } 
+    .contact-links {
+        text-align: center !important;
+    }
 }
 @media (min-width: 767px) and (max-width: 992px) { 
-
+    .contact-box {
+        width: 100% !important;
+        justify-content: center;
+    }
 }
 
-@media (min-width: 993px) and (max-width: 1200px) { 
-
+@media (min-width: 993px) and (max-width: 1140px) { 
 }

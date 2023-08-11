@@ -22,3 +22,19 @@
 .developer-text {
     color: #fff;
 }
+@media (max-width: 767px) { 
+    .container-fluid {
+        padding: 20px 0;
+    }
+    .footer {
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+
+}
