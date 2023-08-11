@@ -69,7 +69,11 @@
     justify-content: end;
 }
 .s-media-box {
-    justify-content: start;
+    width: 100% !important;
+}
+.s-media-inbox {
+    width: 100%;
+    justify-content: space-evenly;
 }
 @media (max-width: 767px) { 
     .contact-box {

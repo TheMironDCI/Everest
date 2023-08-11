@@ -1,11 +1,10 @@
 import React from "react";
-import "./Contact.css";
-import { Link } from "react-router-dom";
+import "../../Navbar/Contact.css";
 
-const Contact = () => {
+const ContactPage = () => {
   return (
     <div className="contact-container container">
-      <h1 className="map-text">Contact <i className="fa fa-phone" aria-hidden="true"></i></h1>
+      <h1 className="contact-text">Contact</h1>
       <div className="container-contact-box ">
         <div className="contact-box phones-box">
           <div className="contact-texts">
@@ -67,4 +66,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactPage;

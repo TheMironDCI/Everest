@@ -3,7 +3,7 @@ import "./Dispeching.css"
 
 function Dispeching() {
   return (
-    <div className='container'><h1 className='text contact-text'>Dispeching</h1></div>
+    <div className='container'><h1 className='text contact-text'>Logistic</h1></div>
     
   )
 }

@@ -47,8 +47,8 @@ function Courses() {
         </Link>
       </div>
       <div className="courses-icon-box">
-        <Link className="courses-icon-link" to={"/dispeching"}>
-          <p className="courses-icon-text">Dispecher</p>
+        <Link className="courses-icon-link" to={"/logistic"}>
+          <p className="courses-icon-text">Logistic</p>
           <div className="courses-icon-in-box">
             <p className="price">Price : 000 so'm</p>
             <div className="line"></div>
