@@ -22,11 +22,11 @@ const Header = () => {
       ></iframe>        </div>
       </div>
       <div className='container join-cont'>
-        <Link className="link join-link" to={"/join"}><button className="header-join-btn btn">
+        <a className="link join-link" href="https://ultimate.modme.uz/entry/lead?utm_source=Website" target="_blank" rel="noopener noreferrer"><button className="header-join-btn btn">
         <i className="fa-solid fa-arrow-right fa-beat"></i>
           Join
         <i className="fa-sharp fa-solid fa-arrow-left fa-beat"></i>
-          </button></Link>
+          </button></a>
       </div>
     </div>
   </>

@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link className="link join-link nav-box nav-link" to={"/courses"}><p className="nav-link-in">Courses</p></Link>
         </div>
         <div className="nav-box contact-btn-box">
-        <Link className="link join-link nav-box nav-link" to={"/join"}><p className="nav-link-in">Join</p></Link>
+        <a className="link join-link nav-box nav-link" href="https://ultimate.modme.uz/entry/lead?utm_source=Website" target="_blank" rel="noopener noreferrer"><p className="nav-link-in">Join</p></a>
         </div>
       </div>
     </nav>
