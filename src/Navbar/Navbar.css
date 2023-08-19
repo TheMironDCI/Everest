@@ -9,17 +9,17 @@
 }
 
 .contact-link {
-    color: #fff;
+    color: #000;
 }
 .join-link {
-    color: #fff;
+    color: #000;
 }
 .link {
     text-decoration: none;
     font-size: 26px;
     font-weight: 600;
     transition-duration: .2s;
-    color: #fff;
+    color: #000;
 }
 .btn:hover {
     cursor: pointer;

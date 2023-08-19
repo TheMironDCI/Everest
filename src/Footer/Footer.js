@@ -18,7 +18,7 @@ function Footer() {
             </div>
         </div>
         <div className='footer-box' >
-            <Link className='footer-link' to={"/courses"}>
+            <Link className='footer-link' to={"/contact"}>
             <h3 className='footer-them'>Contact</h3>
             </Link>
             <div className='footer-text'>
@@ -29,7 +29,7 @@ function Footer() {
             </div>
         </div>
         <div className='footer-box' >
-            <Link className='footer-link' to={"/courses"}>
+            <Link className='footer-link' to={"/contact"}>
             <h3 className='footer-them'>Social Medias</h3>
             </Link>
             <div className='footer-text'>

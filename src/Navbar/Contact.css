@@ -1,10 +1,10 @@
 .contact-text {
     z-index: 5;
-    color: #000;
+    color: #fff ;
     text-align: center;
     text-transform: uppercase;
     background-repeat:no-repeat ;
-    background: rgb(255,255,255);
+    background: #000;
     border-radius: 0.625rem;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
 }
 .contact-links {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 32px;
     transition-duration: .3s;
 }
@@ -35,7 +35,7 @@
     align-items: center;
     flex-direction: row;
     align-items: center;
-    color: #fff;
+    color: #000;
     font-size: 32px;
     width: 45%;
     text-align: center;
