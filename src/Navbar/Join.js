@@ -16,11 +16,9 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-// Использование аналитики (например, отправка события)
-analytics.logEvent('user_action', { action: 'submit_form' });
+const analytics = getAnalytics(app); // Initialize analytics
 const database = getDatabase(app); // Get a reference to the database
+console.log(analytics);
 
 const Join = () => {
   const [formData, setFormData] = useState({
