@@ -37,7 +37,8 @@
     align-items: center;
     color: #000;
     font-size: 32px;
-    width: 45%;
+    width: 350px;
+    padding: 20px;
     text-align: center;
     margin: 31px;
 }
@@ -47,17 +48,27 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
+    justify-content: center;
 }
 .contact-links {
     display: flex;
     align-items: center;
+    font-size: 22px;
 }
 .contact-icons i {
     width: 100%;
     margin-left: 17px;
 }
 .contact-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-left: 5px;
+    width: 100%;
+    height: 265px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
 }
 .contact-text-icon {
     margin-right: 10px;
@@ -67,13 +78,6 @@
 }
 .emails-box {
     justify-content: end;
-}
-.s-media-box {
-    width: 100% !important;
-}
-.s-media-inbox {
-    width: 100%;
-    justify-content: space-evenly;
 }
 @media (max-width: 767px) { 
     .contact-box {
@@ -97,6 +101,9 @@
     .contact-box {
         width: 100% !important;
         justify-content: center;
+    }
+    .contact-links {
+        font-size: 30px;
     }
 }
 

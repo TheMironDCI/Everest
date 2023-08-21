@@ -3,11 +3,14 @@ import "./Map.css";
 
 function Map() {
   return (
-    <div className="container d-block">
+    <div className="container-fluid d-block">
+      <div className="container">
       <h1 className="map-text">
         Location
         <i className="fa fa-location-arrow" aria-hidden="true"></i>
       </h1>
+      </div>
+      <div className="map-cont">
       <div className="map">
         <iframe
           title="Google Maps"
@@ -19,6 +22,7 @@ function Map() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         />
+      </div>
       </div>
     </div>
   );

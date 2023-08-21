@@ -7,7 +7,6 @@
 .courses-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     width: 100%;
     margin: 100px auto;
     padding: 0;
@@ -19,6 +18,7 @@
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 10px;
+    border-radius: 30px;
 }
 .courses-icon-link {
     text-decoration: none;

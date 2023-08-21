@@ -3,8 +3,17 @@
     color: #fff;
 }
 .video {
-    width: 60%;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+}
+.video-cont {
+    width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    margin: 0 auto;
+    border-radius: 30px;
 }
 .header-join-btn {
     z-index: 5;
@@ -40,7 +49,7 @@ i {
     margin-bottom: 30px;
 }
 .logo-img {
-    background-image:url(../img/logo.jpg) ;
+    background-image:url(../img/logo.png) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,6 +61,7 @@ i {
 .join-cont {
     margin: 0 auto;
 }
+
 @media (max-width: 767px) { 
     .video {
         width: 90%;

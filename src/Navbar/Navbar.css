@@ -7,6 +7,13 @@
     display: flex;
     padding: 20px 0;
 }
+.join-btn {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,4,64,1) 35%, rgba(0,212,255,1) 100%);
+}
+.join-btn a {
+    color: #fff;
+}
 
 .contact-link {
     color: #000;
@@ -32,9 +39,15 @@
 }
 .nav-box {
     display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .nav-link-in {
     margin: 0 auto;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
 }
 @media (max-width: 767px) { 
     .nav {

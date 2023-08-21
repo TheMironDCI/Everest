@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import "./Footer.css"
 function Footer() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid footer-fluid'>
         <div className='container footer'>
         <div className='footer-box' >
             <Link className='footer-link' to={"/courses"}>

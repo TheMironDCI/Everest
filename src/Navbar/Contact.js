@@ -38,7 +38,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-box s-media-box">
-          <div className="contact-texts d-flex s-media-inbox">
+          <div className="contact-texts s-media-inbox">
             <p className="s-medias">
               <a className="contact-links" href="https://www.instagram.com/everestuniversity_/" target="_blank" rel="noopener noreferrer" >
               <i className="fa-brands fa-instagram contact-text-icon"></i>
@@ -59,7 +59,6 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="contact-box"></div>
       </div>
     </div>
   );

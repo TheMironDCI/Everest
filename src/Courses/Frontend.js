@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Dispeching.css"
+import "./Frontend.css"
 
 function Frontend() {
   return (
