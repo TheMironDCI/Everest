@@ -76,9 +76,6 @@ function Courses() {
       </div>
     </div>
   );
-  // function engGo() {
-  //   window.location.assign(<English/>)
-  // }
 }
 
 export default Courses;

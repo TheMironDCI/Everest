@@ -30,7 +30,7 @@ const Contact = () => {
               </a>
             </p>
             <p className="emails">
-              <a href="mailto:" className="contact-links">
+              <a href="mailto:silicon609@gmail.com:" className="contact-links">
               <i className="fa-solid fa-envelope contact-text-icon"></i>
                 info@
               </a>
